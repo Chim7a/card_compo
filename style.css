@@ -8,6 +8,25 @@ body {
   background-color: rgba(1, 23, 47, 0.815);
 }
 
+/* Header styling */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 100%;
+  position: sticky;
+  top: 10px;
+  margin: 1em 1em 1.5em;
+}
+
+.ham-menu {
+  margin: 3px;
+  width: 35px;
+  height: 8px;
+  background-color: bisque;
+}
+
+/* Card styling */
 .card {
   border: 1px solid #ddd;
   border-radius: 8px;
