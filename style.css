@@ -35,6 +35,20 @@ body {
   margin: 0;
   color: #555;
 }
+.shop {
+  display: flex;
+  border-radius: 50%;
+  background-color: red;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+  transform: rotate(30deg);
+  color: bisque;
+}
 
 h3 {
   position: absolute;
@@ -62,4 +76,7 @@ h3 {
 }
 .card-3 {
   order: 0;
+}
+.card-4 {
+  order: 3;
 }
